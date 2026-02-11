@@ -4,7 +4,7 @@ import path from 'path';
 
 const libRootPath = path.resolve(
   __dirname,
-  '../../../Common/vue-lib-expert-starter-kit',
+  '../vue-lib-expert-starter-kit',
 );
 
 export default defineConfig(() => {
@@ -20,15 +20,15 @@ export default defineConfig(() => {
         },
         // Toujours résoudre le CSS vers le fichier physique (dist ou node_modules)
         {
-          find: 'vue-lib-exo-corrected/style.css',
+          find: 'vue-lib-expert-starter-kit/style.css',
           replacement: isLibDev
             ? path.resolve(libRootPath, 'dist/style.css')
-            : path.resolve(__dirname, 'node_modules/vue-lib-exo-corrected/dist/style.css'),
+            : path.resolve(__dirname, 'node_modules/vue-lib-expert-starter-kit/dist/style.css'),
         },
         ...(isLibDev
           ? [
               {
-                find: 'vue-lib-exo-corrected',
+                find: 'vue-lib-expert-starter-kit',
                 replacement: libRootPath,
               },
             ]
@@ -42,8 +42,8 @@ export default defineConfig(() => {
       preprocessorOptions: {
         scss: {
           additionalData: isLibDev
-            ? `@use "${path.resolve(libRootPath, 'src/styles/vue-lib-exo-corrected.scss')}" as *;`
-            : `@use "vue-lib-exo-corrected/styles/vue-lib-exo-corrected.scss" as *;`,
+            ? `@use "${path.resolve(libRootPath, 'src/styles/vue-lib-expert-starter-kit.scss')}" as *;`
+            : `@use "vue-lib-expert-starter-kit/styles/vue-lib-expert-starter-kit.scss" as *;`,
         },
       },
     },

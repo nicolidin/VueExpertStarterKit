@@ -1,9 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3041abd4-452e-452f-8b7f-3d015358930e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Common/vue-lib-exo-nico-corrected/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Common/vue-lib-exo-nico-corrected/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VueExpertCorrected.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VueExpertCorrected.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/docAuth.md" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/docAuth.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/axios.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/strapi/community-pinned-notes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/strapi/notes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/api/strapi/tags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/components/RefExemple/Child.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/components/RefExemple/Parent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/composables/useFetch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/composables/useSearch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/mapper/strapiMappers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/service/noteWithTags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/services/markdownUtils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/stores/counter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/stores/notes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/types/StrapiNoteType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/types/StrapiTagType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/types/vue-lib-exo-corrected.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/AboutPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/IlsOntEcritDetailPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/IlsOntEcritPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/NoteEditPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/src/views/NoteListPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueFormationExpertWithStrapi/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VueFormationExpertWithStrapi/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-lib-expert-starter-kit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-lib-expert-starter-kit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/styles/vue-lib-expert-starter-kit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue-lib-expert-starter-kit/src/styles/vue-lib-expert-starter-kit.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="39WuNwF5RbrmzwmE5x8HHmBYAlb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{}</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/nicolas/Projects/Formation/Common/vue-lib-exo-nico-corrected",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.dev:lib.executor": "Run",
+    "npm.lib:buildPreview.executor": "Run",
+    "npm.preview.executor": "Run",
+    "npm.updrade-version:beta.executor": "Run",
+    "ts.external.directory.path": "/home/nicolas/Projects/Formation/Common/vue-lib-exo-nico-corrected/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.lib:buildPreview">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../../Common/vue-lib-exo-nico-corrected/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:lib" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/VueFormationExpertWithStrapi/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:lib" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lib:buildPreview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/VueFormationExpertWithStrapi/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lib:buildPreview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/VueFormationExpertWithStrapi/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="updrade-version:beta" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue-lib-expert-starter-kit/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="updrade-version:beta" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lib:buildPreview" />
+        <item itemvalue="npm.dev:lib" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.updrade-version:beta" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3041abd4-452e-452f-8b7f-3d015358930e" name="Changes" comment="" />
+      <created>1770824112779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770824112779</updated>
+      <workItem from="1770824114235" duration="11040000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

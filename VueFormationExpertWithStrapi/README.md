@@ -1,6 +1,6 @@
 # VueFormationExoWithLibCorrectedSimpleWithJsonServer
 
-Version simplifiée et pédagogique du projet Vue utilisant `vue-lib-exo-corrected` et `json-server`.
+Version simplifiée et pédagogique du projet Vue utilisant `vue-lib-expert-starter-kit` et `json-server`.
 
 ## 🎯 Objectif
 

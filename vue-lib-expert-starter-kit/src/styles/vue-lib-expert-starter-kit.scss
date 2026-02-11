@@ -1,4 +1,12 @@
 // vue-lib-expert-starter-kit.scss
+// IMPORTANT:
+// - This file is injected via Vite `css.preprocessorOptions.scss.additionalData`
+//   into SFC <style lang="scss"> blocks (often `scoped`).
+// - Therefore it must NOT generate global Vuetify CSS (e.g. `html {}`, `.v-btn {}`),
+//   otherwise Vue will scope it (`html[data-v-xxx]`) and it won't apply globally.
+//
+// Keep only tokens/mixins/overrides that are safe to use inside scoped styles.
+
 @forward "vuetify" with (
   $font-size-root: 18px
 );

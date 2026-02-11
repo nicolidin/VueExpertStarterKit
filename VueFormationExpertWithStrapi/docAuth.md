@@ -40,7 +40,7 @@ Ce document explique en détail l'implémentation complète d'un système d'auth
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    COMPOSANTS PURS                       │
-│              (vue-lib-exo-corrected)                    │
+│              (vue-lib-expert-starter-kit)                    │
 │  - LoginForm.vue                                        │
 │  - RegisterForm.vue                                     │
 │  → Présentation uniquement, pas de logique              │
@@ -777,7 +777,7 @@ router.beforeEach(async (to, from, next) => {
 
 ### 6. Composants dans la lib
 
-#### LoginForm (`vue-lib-exo-corrected/src/components/Molecules/LoginForm/LoginForm.vue`)
+#### LoginForm (`vue-lib-expert-starter-kit/src/components/Molecules/LoginForm/LoginForm.vue`)
 
 **Caractéristiques** :
 - ✅ **Composant pur** : Pas de store, pas de router, pas d'API
@@ -843,7 +843,7 @@ router.beforeEach(async (to, from, next) => {
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useAuthStore } from '@/stores/auth';
-import { LoginForm } from 'vue-lib-exo-corrected';
+import { LoginForm } from 'vue-lib-expert-starter-kit';
 
 // ✅ Toute la logique est ici
 const router = useRouter();

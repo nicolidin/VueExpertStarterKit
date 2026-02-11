@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/VueExpertCorrected.iml" filepath="$PROJECT_DIR$/.idea/VueExpertCorrected.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Common/vue-lib-exo-nico-corrected/.idea/vue-lib-exo-nico-corrected.iml" filepath="$PROJECT_DIR$/../../Common/vue-lib-exo-nico-corrected/.idea/vue-lib-exo-nico-corrected.iml" />
     </modules>
   </component>
 </project>

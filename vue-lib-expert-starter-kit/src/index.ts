@@ -1,5 +1,9 @@
+// Global styles (Vuetify CSS + fonts) for consuming apps
+import "./style.css";
+
 import Tag from "./components/Atoms/Tag/Tag.vue";
 import HeaderLayout from "./components/Molecules/HeaderLayout/HeaderLayout.vue";
+import Layout from "./components/Organisms/Layout/Layout.vue";
 import { DEFAULT_VUETIFY_CONFIG } from "./lidinAppKitConfig/vuetifyConfig/defaultVuetifyConfig";
 import { createLidinAppKit } from "./lidinAppKitConfig/createLidinAppKit";
 import { useLanguage } from "./modules/globalAppData/composables/useLanguage";
@@ -18,6 +22,7 @@ export {
   DEFAULT_VUETIFY_CONFIG,
   Tag,
   HeaderLayout,
+  Layout,
   generateRandomUuid,
   extractTitleFromMarkdown,
 };

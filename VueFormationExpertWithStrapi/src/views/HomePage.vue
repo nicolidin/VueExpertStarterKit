@@ -1,20 +1,16 @@
 <template>
   <Layout>
     <div class="home">
-    <h1 class="home__title">Bienvenue</h1>
-    <nav class="home__nav">
-      <RouterLink to="/notes" class="home__link">Mes notes</RouterLink>
-      <RouterLink to="/ils-ont-ecrit" class="home__link">Ils ont écrit</RouterLink>
-      <RouterLink to="/articles" class="home__link">Articles</RouterLink>
-      <NoteCard :note="{ contentMd: 'testttt' }" />
-      <NewNoteCard :note="{ contentMd: 'testttt' }" />
-    </nav>
+      <h1 class="home__title">Bienvenue</h1>
+      <nav class="home__nav">
+        <RouterLink to="/notes" class="home__link">Mes notes</RouterLink>
+      </nav>
     </div>
   </Layout>
 </template>
 
 <script setup lang="ts">
-import { Layout, NoteCard, NewNoteCard } from 'vue-lib-exo-corrected';
+import { Layout } from 'vue-lib-expert-starter-kit';
 </script>
 
 <style scoped lang="scss">
